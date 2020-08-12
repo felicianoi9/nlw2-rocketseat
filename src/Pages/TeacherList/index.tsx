@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 import PageHeader from "../../Components/PageHeader";
+import whatsappIcon from "../../Assets/images/icons/whatsapp.svg";
+import TeacherItem from "../../Components/TeacherItem";
 
 function TeacherList() {
     return (
@@ -26,6 +28,15 @@ function TeacherList() {
                     </div>
                 </form>
             </PageHeader>
+            <main>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+            </main>
+
         </div>
     );
 }
